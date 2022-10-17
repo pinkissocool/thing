@@ -1,0 +1,16 @@
+@media screen and (max-width:600px){
+    body{
+        background-color: yellow;
+    }
+}
+
+@media screen and (min-width:601px){
+    body{
+        background-color: lightblue;
+    }
+}
+
+/*I used 2 media queries, one for screens with a width bigger than and equal to, and one smaller than 601px. 
+I then created a css rule for the body element in each of the queries to change the color to yellow and blue depending on which query it was in.
+It looks different in different viewsizes because the width of the screen will be either in the yellow or blue query, depending on the width of the screen size.
+
